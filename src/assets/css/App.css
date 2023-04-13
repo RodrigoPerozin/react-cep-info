@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  background-color: rgb(54, 54, 54);
+  height: 100vh;
+  width: 100vw;
+}
+
+.form-control.input-cep{
+  width: 28vw;
+  background-color: rgb(22, 22, 22);
+  border-color: rgb(184, 184, 184);
+  border-width: 2px;
+  margin: auto;
+  box-shadow: 0 0 10px #161616;
+  color: white;
+  text-align: center;
+  font-family: fantasy;
+  font-size: larger;
+}
+
+.form-control.input-cep:hover, .form-control.input-cep:focus{
+  background-color: rgb(48, 48, 48);
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px #d1d1d1;
+  color: white;
+  text-align: center;
+}
+
+.main-box{
+  padding: 3vw;
+  width: 100vw;
+  height: fit-content;
+  height: auto;
+  justify-content: center;
+}
+
+.submit-btn{
+  margin-top: 1vh;
+  width: 28vw;
+  font-family: cursive;
+  font-size: larger;
+  text-shadow: 3px 4px 2px #000;
+  background-color: rgb(87, 87, 87);
+  color: white;
+  border: ridge;
+  box-shadow: 0 0 10px #161616;
+}
+
+.submit-btn:hover, .submit-btn:focus{
+  background-color: rgb(126, 126, 126);
+  box-shadow: 0 0 10px #727272;
+}
+
+.tableResponse td{
+  color: aliceblue;
+  font-weight: 300;
+  width: 30vw;
+  padding: 0.5vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border: 1px solid aliceblue;
+  background-color: #242634;
+}
+
+.tableResponse td.th{
+  background-color: #363952;
+  border-right: 1px solid aliceblue;
+  padding-right: 3vw;
+  font-style: oblique;
+  font-weight: 500;
+  border-bottom: 1px solid aliceblue;
+}
+
+.tableResponse{
+  width: auto;
+}
+
+#divResponseView{
+  display: flex;
+  justify-content: center;
+}

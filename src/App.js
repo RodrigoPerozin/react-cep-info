@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/css/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import InputCEP from './components/InputCep.js';
+import SubmitBtn from './components/SubmitBtn.js';
+import ResponseView from './components/ResponseView';
+import './assets/js/main.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="main-box">
+        <InputCEP/>
+        <SubmitBtn/>
+      </div>
+      <ResponseView/>
     </div>
   );
 }
